@@ -1,0 +1,4 @@
+Adafruit-IO==2.8.0
+requests==2.32.2
+schedule==1.2.2
+# Weather HAT Python Library
