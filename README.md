@@ -8,7 +8,7 @@ The code brings together sensor integration, API requests, scheduled jobs, basic
 
 ## Dashboard Preview
 
-![PiCaster weather station dashboard showing temperature, rainfall, humidity, atmospheric pressure, and wind speed readings](screenshots/picaster-dashboard.png)
+![PiCaster weather station dashboard showing temperature, rainfall, humidity, atmospheric pressure, and wind speed readings](screenshots/picaster-dashboard-cropped.png)
 
 *Adafruit IO dashboard captured during the PiCaster demonstration, with environmental sensor readings, a temperature history chart, and sensor status indicator. Values and status reflect the recorded demo, not live conditions.*
 
