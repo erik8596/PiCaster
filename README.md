@@ -6,7 +6,13 @@ PiCaster is a Raspberry Pi weather-monitoring project that reads environmental d
 
 The code brings together sensor integration, API requests, scheduled jobs, basic data-quality checks, and cloud dashboard feeds.
 
-> **Project scope:** PiCaster is a personal hardware/software project. The published repository contains the Python application, but no dashboard screenshots, automatic deployment scripts, or automated test suite. Running it requires compatible physical hardware and configured third-party accounts.
+## Dashboard Preview
+
+![PiCaster weather station dashboard showing temperature, rainfall, humidity, atmospheric pressure, and wind speed readings](screenshots/picaster-dashboard.png)
+
+*Adafruit IO dashboard captured during the PiCaster demonstration, with environmental sensor readings, a temperature history chart, and sensor status indicator. Values and status reflect the recorded demo, not live conditions.*
+
+> **Project scope:** PiCaster is a personal hardware/software project. The published repository contains the Python application, with a demonstration dashboard screenshot, but no automatic deployment scripts or automated test suite. Running it requires compatible physical hardware and configured third-party accounts.
 
 ## Features
 
@@ -172,7 +178,7 @@ If data is missing, check GPIO connections, the active Python environment, API c
 
 ## Future Improvements
 
-Potential improvements include corrected rolling rainfall aggregation, environment-based configuration, HTTPS requests with timeouts, improved error handling and health indicators, automated tests with mock sensor/API responses, and a screenshot of the running Adafruit IO dashboard.
+Potential improvements include corrected rolling rainfall aggregation, environment-based configuration, HTTPS requests with timeouts, improved error handling and health indicators, automated tests with mock sensor/API responses, and a reproducible dashboard configuration export.
 
 ---
 
